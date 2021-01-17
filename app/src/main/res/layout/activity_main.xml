@@ -15,6 +15,7 @@
             android:background="#f9de0e"
             android:textColor="#020b0f"
             android:text="car Menu "
+            android:onClick="goToCars"
             android:gravity="center"
             android:layout_marginLeft="80dp"
             android:id="@+id/menu"

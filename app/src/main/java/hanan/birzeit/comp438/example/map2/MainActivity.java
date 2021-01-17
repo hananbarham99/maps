@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void goToCars(View view) {
+        Intent intent = new Intent(MainActivity.this, RecyclerView.class);
+        startActivity(intent);
+    }
 }
