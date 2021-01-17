@@ -5,29 +5,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#A18EBC"
+    android:background="@drawable/carlogo"
     tools:context=".MainActivity">
+    <TableRow>
+        <Button
+            android:layout_marginTop="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f9de0e"
+            android:textColor="#020b0f"
+            android:text="car Menu "
+            android:gravity="center"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/menu"
+            />
+    </TableRow>
 
     <TableRow>
         <Button
-            android:layout_marginTop="400dp"
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#f9de0e"
+            android:textColor="#020b0f"
             android:text="about us "
             android:gravity="center"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="80dp"
             android:id="@+id/aboutUs"
             />
     </TableRow>
     <TableRow>
         <Button
-
-            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="next"
+            android:text="location "
+            android:background="#f9de0e"
+            android:textColor="#020b0f"
             android:gravity="center"
             android:id="@+id/Next"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="80dp"
 
             />
 

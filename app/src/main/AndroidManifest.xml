@@ -34,7 +34,14 @@
             android:label="@string/title_activity_maps">
 
         </activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".aboutActivity"
+            android:label="aboutUs">
+
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="carHouse company">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
